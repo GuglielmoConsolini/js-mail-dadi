@@ -9,10 +9,10 @@ const emailAccesso = [
 "luca@gmail.com",
 
 ];
-
+let eMail = prompt("Inserisci Email..");
 console.log(emailAccesso)
 
-let eMail = prompt("Inserisci Email..");
+
 
 for (let i = 0; i < emailAccesso.length; i++) {
 
@@ -30,7 +30,7 @@ for (let i = 0; i < emailAccesso.length; i++) {
 
      console.log("non hai accesso")
      document.getElementById("esito").innerText = "Non hai accesso"
-     break
+     
     }
 
 	
